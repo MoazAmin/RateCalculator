@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Currency Calculator</title>
+    <link href="styles.css" rel="stylesheet">
+    <script src="script.js" defer></script>
+    <!--    <meta name="viewport" content="user-scalable=no, initial-scale=1, maximum-scale=1, minimum-scale=1, width=device-width, height=device-height, target-densitydpi=device-dpi" />-->
+    <meta
+            name="viewport"
+            content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, shrink-to-fit=no"
+    />
+
+    <div class="header">
+        Travel Rates
+    </div>
+</head>
+<div class="sidenav">
+
+    <br><br><br><br>
+    Visiting
+
+    <select id="list1" >
+        <option value="EUR" >EUR</option>
+        <option value="USD">USD</option>
+        <option value="JPY">JPY</option>
+        <option value="BGN">BGN</option>
+        <option value="CZK">CZK</option>
+        <option value="DKK">DKK</option>
+        <option value="GBP" >GBP</option>
+        <option value="HUF">HUF</option>
+        <option value="PLN">PLN</option>
+        <option value="RON">RON</option>
+        <option value="SEK">SEK</option>
+        <option value="CHF">CHF</option>
+        <option value="ISK">ISK</option>
+        <option value="NOK">NOK</option>
+        <option value="HRK">HRK</option>
+        <option value="RUB">RUB</option>
+        <option value="TRY">TRY</option>
+        <option value="AUD">AUD</option>
+        <option value="BRL">BRL</option>
+        <option value="CAD">CAD</option>
+        <option value="CNY">CNY</option>
+        <option value="HKD">HKD</option>
+        <option value="IDR">IDR</option>
+        <option value="ILS">ILS</option>
+        <option value="INR">INR</option>
+        <option value="KRW">KRW</option>
+        <option value="MXN">MXN</option>
+        <option value="MYR">MYR</option>
+        <option value="NZD">NZD</option>
+        <option value="PHP">PHP</option>
+        <option value="SGD">SGD</option>
+        <option value="THB">THB</option>
+        <option value="ZAR">ZAR</option>
+
+    </select>
+    <br>
+    Home
+    <select id="list2" >
+        <option value="EUR">EUR</option>
+        <option value="USD">USD</option>
+        <option value="JPY">JPY</option>
+        <option value="BGN">BGN</option>
+        <option value="CZK">CZK</option>
+        <option value="DKK">DKK</option>
+        <option value="GBP" >GBP</option>
+        <option value="HUF">HUF</option>
+        <option value="PLN">PLN</option>
+        <option value="RON">RON</option>
+        <option value="SEK">SEK</option>
+        <option value="CHF">CHF</option>
+        <option value="ISK">ISK</option>
+        <option value="NOK">NOK</option>
+        <option value="HRK">HRK</option>
+        <option value="RUB">RUB</option>
+        <option value="TRY">TRY</option>
+        <option value="AUD">AUD</option>
+        <option value="BRL">BRL</option>
+        <option value="CAD">CAD</option>
+        <option value="CNY">CNY</option>
+        <option value="HKD">HKD</option>
+        <option value="IDR">IDR</option>
+        <option value="ILS">ILS</option>
+        <option value="INR">INR</option>
+        <option value="KRW">KRW</option>
+        <option value="MXN">MXN</option>
+        <option value="MYR">MYR</option>
+        <option value="NZD">NZD</option>
+        <option value="PHP">PHP</option>
+        <option value="SGD">SGD</option>
+        <option value="THB">THB</option>
+        <option value="ZAR">ZAR</option>
+    </select>
+
+    <br>
+    Rate
+    <div class="display">
+
+
+
+        <select id="list3" >
+            <option value="0">0%</option>
+            <option value="0.02">2%</option>
+            <option value="0.04">4%</option>
+            <option value="0.06">6%</option>
+        </select>
+    </div>
+
+</div>
+<body>
+
+<div class="view-grid">
+
+    <div class="output">
+        <div id="h2">EUR</div>
+
+        <div id="Current" data-current class="current"></div>
+        <div id="hi" data-previous class="previous"></div><div id="h3">GBP</div>
+
+
+
+    </div>
+
+    <button data-number>7</button>
+    <button data-number>8</button>
+    <button data-number>9</button>
+    <button data-number>4</button>
+    <button data-number>5</button>
+    <button data-number>6</button>
+    <button data-number>1</button>
+    <button data-number>2</button>
+    <button data-number>3</button>
+    <button data-clear >C</button>
+    <button data-number>0</button>
+    <button data-equal >=</button>
+</div>
+<div have-mercy class="footer">
+</div>
+</body>
+
+
+

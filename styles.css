@@ -1,0 +1,107 @@
+*, *::before, *::after {
+    box-sizing: border-box;
+    font-family:  sans-serif;
+    font-weight: normal;
+
+}
+html, body{
+    padding: 0;
+    margin: 0;
+}
+html{
+    height: 100vh;
+}
+body{
+    min-height: 100vh;
+}
+
+
+
+
+body {
+    padding-left: 80px;
+    margin-top: 0px;
+    padding-top: 20vh;
+    position: absolute;
+    overflow: auto;
+    height: 100vh;
+    width: 100vw;
+}
+
+.view-grid {
+    display: grid;
+    justify-content: center;
+    align-content: center;
+    min-height: 100vh;
+    grid-template-columns: repeat(3, 100px);
+    grid-template-rows: minmax(120px, auto) repeat(4, 100px);
+}
+
+.view-grid > button {
+    font-size: 2rem;
+    background-color: cornflowerblue;
+    border: 3px solid white;
+    color: white;
+
+}
+.output {
+    grid-column: 1/-1;
+    background-color: royalblue;
+    display: flex;
+    align-items: flex-end;
+    justify-content: space-around;
+    flex-direction: column;
+    padding: 5px;
+    border: 3px solid white;
+}
+
+#h3 {
+    color: white;
+    font-size: 23px;
+}
+
+#h2 {
+    color: white;
+    font-size: 15px;
+    color: dodgerblue;
+}
+#Current{
+    color: dodgerblue;
+}
+
+.footer {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: black;
+    color: white;
+    text-align: center;
+    z-index: 1000;
+}
+
+.header {
+    position: fixed;
+    left: 0;
+    top: 0;
+    width: 100%;
+    background-color: black;
+    color: white;
+    text-align: center;
+    z-index: 1000;
+}
+.sidenav {
+    height: 100%; /* Full-height: remove this if you want "auto" height */
+    width: 10vh; /* Set the width of the sidebar */
+    position: fixed; /* Fixed Sidebar (stay in place on scroll) */
+    z-index: 1; /* Stay on top */
+    top: 0; /* Stay at the top */
+    left: 0;
+    background-color: darkgray; /* Black */
+    overflow: hidden;
+    padding-top: 20px;
+    justify-items: center;
+}
+#hi {
+    font-size: 35px;
+}
